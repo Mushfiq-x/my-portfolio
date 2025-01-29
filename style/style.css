@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Nav Style */
+
+*{
+    font-family: "open sans";
+}
+
+.scnd-bg {
+    background-color: #FFF8F3;
+}
+
+.header {
+    background-image: url("/images/developer.png"), url("/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    /* background-size: 774px 136px , 518px 1036px; */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 8% 0px 10%;
+}
+
+nav h1 {
+    font-size: 60px;
+    font-weight: 800px;
+}
+
+nav .sty {
+    color: #FD6E0A;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 10px;
+    font-size: 30px;
+    margin-left: 80px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.btn-primary {
+    padding: 26px 36px;
+    font-size: 25px;
+    color: white;
+    background-color: #FD6E0A;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #b85209;
+}
+
+.front {
+    display: flex;
+    justify-content: space-between;
+}
+
+.front img {
+    width: 100%;
+    height: 1000px;
+    margin-top: -200px;
+}
+
+.front .details {
+    margin-left: 230px;
+    max-width: 600px;
+    margin-top: 120px;
+}
+
+.front h1 {
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.front h3 {
+    font-size: 45px;
+    font-weight: 600px;
+    color: #474747;
+}
+
+.front p {
+    font-size: 18px;
+    color: #757575;
+}
+
+.about {
+    max-width: 740px;
+    /* height: px; */
+    margin: 130px auto 0;
+    text-align: center;
+    padding: 150px 300px;
+    border-radius: 10px;
+
+}
+
+.about h1 {
+    font-size: 35px;
+    font-weight: 700px;
+}
+
+.about p {
+    font-size: 18px;
+    color: #757575;
+    /* margin-bottom: 50px; */
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.item-name {
+    font-size: 20;
+    color: #757575;
+}
+
+.item .item-description {
+    font-size: 20px;
+    font-weight: 800px;
+    color: #474747;
+}
+
+.main {
+    background-color: white;
+    border: 2px solid black;
+}
+
